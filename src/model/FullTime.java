@@ -20,7 +20,12 @@ public class FullTime extends Employee{
 
     @Override
     public void showInfor() {
-
+        System.out.println("FullTime{" +
+                "ID: " + super.getId() +"\n" +
+                "Name: " + super.getName() +"\n" +
+                "Date of birth: " + super.getDateOfBirth() +"\n" +
+                "Work day: " + getWorkDay() +"\n" +
+                "Salary: " + getSalary() + "}");
     }
     public void inputFullTime(Scanner sc){
         System.out.println("ID: ");
